@@ -2,10 +2,9 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: linear-gradient(#f3ead7 70%, #e5d8b0), url('/image_dev/index-forto.png') no-repeat top center fixed;
-    background-size: contain;
+    background: url('/forteresse-impossible/image_dev/index-forto.png') no-repeat top center fixed;
+    background-size: cover;
     filter: brightness(0.6); /* fonce l’image */
-    padding: 2rem;
     z-index: -1;
   }
 
