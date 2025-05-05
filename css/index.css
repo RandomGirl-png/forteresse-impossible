@@ -1,5 +1,35 @@
 body {
     font-family: 'IM Fell English', serif;
-    color: #f5f5dc; /* beige parchemin */
-    background-color: #1a1a1a; /* noir/gris très sombre */
+    background-color: #0d0d0d;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .sommaire h1 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    color: #d6c398;
+    text-shadow: 1px 1px 4px black;
+  }
+
+  .btn-grimoire {
+    display: inline-block;
+    background-color: #1a1a1a;
+    color: #f5f5dc;
+    padding: 12px 24px;
+    margin: 10px;
+    border: 2px solid #a38b5f;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: 0 0 0px transparent;
+  }
+  
+  .btn-grimoire:hover {
+    background-color: #a38b5f;
+    color: #0d0d0d;
+    transform: scale(1.05); /* léger agrandissement */
+    box-shadow: 0 0 15px #d6c398cc; /* lueur dorée */
   }
