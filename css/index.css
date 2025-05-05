@@ -1,5 +1,5 @@
 body {
-    background-image: url('image_dev/forteresse-fond.jpeg'); /* ou .png */
+    background-image: url('../image_dev/index-forto.png'); /* ou .png */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
