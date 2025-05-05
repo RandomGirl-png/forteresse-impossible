@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(#f3ead7 70%, #e5d8b0), url('../image_dev/index-forto.png') no-repeat top center fixed;
+    background: linear-gradient(#f3ead7 70%, #e5d8b0),
+                url('../image_dev/index-forto.png') no-repeat top center fixed;
     background-size: contain;
     padding: 2rem;
   }
