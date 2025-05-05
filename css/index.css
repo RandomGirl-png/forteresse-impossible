@@ -1,5 +1,5 @@
 body {
-    background: #1c1a17 url('../image_dev/parchemin-fond.jpeg') no-repeat center center fixed;
+    background: url('image_dev/parchemin-fond.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fcecc1;
     font-family: 'IM Fell English', Georgia, serif;
