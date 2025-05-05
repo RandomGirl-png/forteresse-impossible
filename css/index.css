@@ -1,8 +1,11 @@
-body {
-    background: linear-gradient(#f3ead7 70%, #e5d8b0),
-                url('../image_dev/index-forto.png') no-repeat top center fixed;
-    background-size: contain;
-    padding: 2rem;
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url('../image_dev/index-forto.png') center center no-repeat;
+    background-size: cover;
+    filter: brightness(0.6); /* fonce l’image */
+    z-index: -1;
   }
 
   .container {
@@ -24,7 +27,6 @@ body {
   .sommaire {
     max-width: 600px;
     margin: auto;
-    background: rgba(255, 248, 220, 0.1);
     border: 2px solid #d2b48c;
     padding: 2rem;
     border-radius: 10px;
