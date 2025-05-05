@@ -1,35 +1,26 @@
 body {
-    font-family: 'IM Fell English', serif;
-    background-color: #0d0d0d;
-    color: #f5f5dc;
+    background-color: #111;
+    color: #fcecc1;
+    font-family: 'Georgia', serif;
+    padding: 2rem;
     text-align: center;
-    padding: 2em;
   }
   
-  .sommaire h1 {
-    font-size: 2em;
-    margin-bottom: 1.5em;
-    color: #d6c398;
-    text-shadow: 1px 1px 4px black;
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
   }
-
-  .btn-grimoire {
-    display: inline-block;
-    background-color: #1a1a1a;
-    color: #f5f5dc;
-    padding: 12px 24px;
-    margin: 10px;
-    border: 2px solid #a38b5f;
+  
+  .sommaire a {
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    color: #88c0d0;
     text-decoration: none;
-    font-size: 1.1em;
-    transition: all 0.3s ease;
-    position: relative;
-    box-shadow: 0 0 0px transparent;
+    transition: 0.3s;
   }
   
-  .btn-grimoire:hover {
-    background-color: #a38b5f;
-    color: #0d0d0d;
-    transform: scale(1.05); /* léger agrandissement */
-    box-shadow: 0 0 15px #d6c398cc; /* lueur dorée */
+  .sommaire a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #88c0d0;
   }
