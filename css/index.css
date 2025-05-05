@@ -1,11 +1,11 @@
 body {
-    background: url('image_dev/index-forto.png') no-repeat center center fixed;
-    background-size: cover;
+    background: linear-gradient(#f3ead7 70%, #e5d8b0), url('image_dev/index-forto.png') no-repeat top center fixed;
+    background-size: contain;
     padding: 2rem;
   }
 
   .container {
-    background-color: #fff8e1;
+    background-color: rgba(255, 248, 225, 0.8);
     border: 1px solid #d2b48c;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
