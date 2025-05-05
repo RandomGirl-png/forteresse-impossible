@@ -1,10 +1,13 @@
 body {
-    background-image: url('/image_dev/forteresse-fond.jpeg');
+    background-image: url('image_dev/forteresse-fond.jpeg'); /* ou .png */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #fcecc1;
-    font-family: 'IM Fell English', Georgia, serif;
-    padding: 2rem;
-    text-align: center;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
   }
   
   h1 {
