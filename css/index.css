@@ -1,13 +1,9 @@
 body {
-    background-image: url('../image_dev/index-forto.png'); /* ou .png */
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     color: #fcecc1;
-    font-family: 'Georgia', serif;
-    margin: 0;
-    padding: 0;
+    font-family: 'IM Fell English', Georgia, serif;
+    padding: 2rem;
+    text-align: center;
   }
   
   h1 {
