@@ -2,7 +2,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: url('/forteresse-impossible/image_dev/index-forto.png') no-repeat top center fixed;
+    background: url('../image_dev/index-forto.png') no-repeat top center fixed;
     background-size: cover;
     filter: brightness(0.6); /* fonce l’image */
     z-index: -1;
