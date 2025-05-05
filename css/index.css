@@ -1,8 +1,6 @@
 body {
-    background-color: #f3ead7; /* beige parchemin */
-    color: #3e2f1c; /* brun foncé pour le texte */
-    font-family: 'IM Fell English', Georgia, serif;
-    margin: 0;
+    background: url('image_dev/index-forto.png') no-repeat center center fixed;
+    background-size: cover;
     padding: 2rem;
   }
 
